@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Love Calculator</string>
+    <string name="font_amatic_bold">AmaticSC-Bold.ttf</string>
+    <string name="font_amatic">AmaticSC-Regular.ttf</string>
+    <string name="add_app_id"> ca-app-pub-3189296528074471~7238442349</string>
+    <string name="add__intest_unit_id">ca-app-pub-3189296528074471/8715175540</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3189296528074471/4145375147</string>
+    <string name="complet_msg">To revel your secret result please complete view video?</string>
+    <string name="watch">Watch video</string>
+    <string name="cancel">Cancel</string>
+</resources>

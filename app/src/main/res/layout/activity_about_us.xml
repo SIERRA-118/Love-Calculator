@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:background="@drawable/background_file"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+
+    <LinearLayout
+        android:background="@drawable/edit_text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.love.calculator.CustomTextView
+            android:gravity="center"
+            app:fontName="@string/font_amatic"
+
+            android:text="Contact me"
+            android:textColor="#212121"
+            android:layout_gravity="center"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.love.calculator.CustomTextView
+            android:gravity="center"
+            app:fontName="@string/font_amatic_bold"
+            android:autoLink="email"
+            android:text="goswamihk87@gmail.com"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/edit_text"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:padding="15dp"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.love.calculator.CustomTextView
+            android:gravity="center"
+            app:fontName="@string/font_amatic"
+
+            android:text="Buy this code from codecanyoun click below link"
+            android:textColor="#212121"
+            android:layout_gravity="center"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.love.calculator.CustomTextView
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            app:fontName="@string/font_amatic_bold"
+            android:id="@+id/tv_result"
+            android:autoLink="web"
+            android:text="https://codecanyon.net/item/blood-donate-material-design-firebase-dbauthsocial-sharingplace-api/19646619"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
